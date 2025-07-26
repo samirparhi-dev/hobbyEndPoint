@@ -1,0 +1,53 @@
+{
+  "plans": [
+    {
+      "name": "Starter",
+      "duration": "Perfect for beginners",
+      "price": "$49",
+      "offerings": [
+        "Access to basic courses",
+        "Community support",
+        "Weekly Q&A sessions",
+        "Certificate of completion",
+        "1 project review"
+      ],
+      "course_link": "/courses/starter"
+    },
+    {
+      "name": "Professional",
+      "duration": "For serious learners",
+      "price": "$99",
+      "offerings": [
+        "All Starter features",
+        "Priority support",
+        "Monthly 1:1 mentorship",
+        "3 project reviews",
+        "Exclusive webinars",
+        "Job search guidance"
+      ],
+      "course_link": "/courses/professional"
+    },
+    {
+      "name": "Enterprise",
+      "duration": "For teams & organizations",
+      "price": "Custom Pricing",
+      "offerings": [
+        "All Professional features",
+        "Dedicated account manager",
+        "Custom learning paths",
+        "Unlimited project reviews",
+        "Team analytics dashboard",
+        "On-demand training sessions"
+      ],
+      "course_link": "/courses/enterprise"
+    }
+  ],
+  "features": [
+    "High-quality video content",
+    "Interactive coding exercises",
+    "Downloadable resources",
+    "Mobile-friendly platform",
+    "Progress tracking",
+    "Lifetime access to course materials"
+  ]
+}
