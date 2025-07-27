@@ -1,0 +1,54 @@
+title = "Request for Infra"
+submit_url = "http://localhost:8080/api/submit"
+
+[[fields]]
+name = "name"
+label = "Full Name"
+field_type = "text"
+required = true
+
+[[fields]]
+name = "email"
+label = "Email Address"
+field_type = "text"
+required = true
+
+[[fields]]
+name = "department"
+label = "Department"
+field_type = "dropdown"
+required = true
+options = ["Engineering", "Marketing", "Sales", "HR", "Finance", "Operations"]
+
+[[fields]]
+name = "experience"
+label = "Experience Level"
+field_type = "radio"
+required = true
+options = ["Junior", "Mid-level", "Senior", "Lead", "Manager"]
+
+[[fields]]
+name = "employment_type"
+label = "Employment Type"
+field_type = "radio"
+required = true
+options = ["Full-time", "Part-time", "Contract", "Intern"]
+
+[[fields]]
+name = "skills"
+label = "Primary Skills"
+field_type = "dropdown"
+required = false
+options = ["JavaScript", "Python", "Rust", "Java", "C++", "Go", "TypeScript", "PHP"]
+
+[[fields]]
+name = "phone"
+label = "Phone Number"
+field_type = "text"
+required = false
+
+[[fields]]
+name = "comments"
+label = "Additional Comments"
+field_type = "text"
+required = false
